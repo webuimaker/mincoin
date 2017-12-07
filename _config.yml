@@ -1,0 +1,101 @@
+### GENERAL SETTINGS ###
+name: "MinCoin"
+logo: "/images/cropped-mincoin-logo-png.png"
+description: "Official MinCoin Website"
+author: "John"
+email: webuimaker@gmail.com
+url: ""
+github : username
+twitter : username
+languages: ["sv", "en", "de", "fr"]
+#baseurl: /Blog
+#navigation:
+# - title: Home
+#   url: /index.html
+# - title: About Us
+#   url: /about.html
+# - title: Category
+#   url: /category.html
+# - title: Contact
+#   url: /contact.html
+   
+###disqus: disqusId
+
+###Banner content
+banner:
+ title: "Worlds #1 High Speed Cryptocurrency"
+ subTitle: "Based On Blockchain Technology"
+ image: "https://www.mincoin.us/wp-content/uploads/2017/10/mincoin-mnc-cryptocurrency-home.png"
+ desc: "MinCoin (Min is short for Minimalist) is a peer-to-peer cryptocurrency using scrypt as a proof-of-work algorithm. MinCoin was released on April 3, 2013 with zero premine."
+ buttonUrl: "https://www.mincoin.us/mincoin-mnc-cryptocurrency-trading-exchanges/"
+ buttonText: "Now Trading on Exchanges"
+
+socialicon:
+ - title: Facebook
+   icon: fa fa-facebook
+   url: https://www.facebook.com/mincoin.us
+ - title: Twitter
+   icon: ti-twitter
+   url: https://twitter.com/mincoinus
+
+MinCoinDownload:
+ - title: MinCoin for Windows
+   icon: /images/mincoin-windows.png
+   url: http://download.mincoin.us/minion-0.8.8.0/windows/mincoin-0.8.8.0-win32.zip
+   downloadText: mincoin-0.8.8.0-win32.zip
+   buttonText: Download for Windows
+ - title: MinCoin for Linux
+   icon: /images/mincoin-linux.png
+   url: http://download.mincoin.us/minion-0.8.8.0/linux/mincoin-0.8.8.0-linux.tar.gz
+   downloadText: mincoin-0.8.8.0-linux.tar.gz
+   buttonText: Download for Linux
+ - title: MinCoin for Mac OSX
+   icon: /images/mincoin-osx.png
+   url: http://download.mincoin.us/minion-0.8.8.0/mac/Mincoin-0.8.8.0-Mac.dmg
+   downloadText: Mincoin-0.8.8.0-Mac.dmg
+   buttonText: Download for Mac
+
+gems:
+   - jekyll-paginate
+   - jekyll-multiple-languages-plugin
+   
+### pagination
+paginate: 4
+paginate_path: "/blog/page:num/"
+
+# Lang settings
+default_lang: 'en'
+langs:
+  'ar': 'العربية'
+  'da': 'Dansk'
+  'de': 'Deutsch'
+  'en': 'English'
+  'es': 'Español'
+  'fr': 'Français'
+  'it': 'Italiano'
+  'ja': '日本語'
+  'pl': 'Polski'
+  'ko': '한국의'
+  'nl': 'Nederlands'
+  'pt': 'Português'
+  'ro': 'Română'
+  'ru': 'Русский'
+  'zh_CN': '简体中文'
+  'zh_TW': '繁體中文'
+lang_codes:
+  - 'en'
+  - 'es'
+  - 'zh_CN'
+  - 'ko'
+  - 'nl'
+  - 'ja'
+  - 'pl'
+  - 'da'
+  - 'pt'
+  - 'zh_TW'
+  - 'ru'
+  - 'fr'
+  - 'it'
+  - 'de'
+  - 'ar'
+  - 'ro'
