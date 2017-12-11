@@ -376,3 +376,72 @@ footer{
 	}
 }
 
+/******************************************************************************************
+					MEDIA QUERY LAYOUT STRUCTURE
+				
+@media (max-width: 767px) {XS DEVICE- EXTRA small:  for Mobile and Tablet}				
+@media (min-width: 768px) and (max-width: 991px) {SMALL DEVICE- iPad Protlat and old Desktop view}
+@media (min-width: 992px) and (max-width: 1199px) {MEDIUM DEVICE- iPad Landscap and large Desktop view}
+@media (min-width: 1200px) {LARGE DEVICE- Projector EXTRA large Desktop view}other-services
+				
+/******************************************************************************************/
+
+@media (max-width: 767px) {
+	.section {
+		padding: 50px 0px;
+	}
+	.banner h1{
+		font-size:3rem;
+	}
+	.banner h2{
+		font-size:20px;
+	}
+	.banner p img{max-width:100%;	}
+	.banner h3{font-size:18px;}
+	.contact-team{text-align:center !important;}
+	.btnmore {float:none!important; display:inline-block; margin-bottom:30px;}
+	.order-container{
+		-ms-box-orient: horizontal;
+		  display: -webkit-box;
+		  display: -moz-box;
+		  display: -ms-flexbox;
+		  display: -moz-flex;
+		  display: -webkit-flex;
+		  display: flex;
+		  
+		  -webkit-flex-flow: row wrap;
+		  flex-flow: row wrap;
+		  
+		  .order-xs-1 { order: 2; margin-top:15px; }
+		  .order-xs-2{ order: 1; }
+	
+	}
+	
+
+}		
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.banner h1{
+		font-size:3rem;
+	}
+	.banner h2{
+		font-size:20px;
+	}
+	.banner p img{max-width:100%;	}
+	.banner h3{font-size:18px;}
+	
+	.download-widget.section{
+		h6{
+			font-size:15px;
+		}
+		p{
+			font-size:14px;
+		}
+		.gradient{
+			padding:1rem;
+			font-size:12px;
+		}
+	}
+	.contact-team{text-align:center;}
+}
+

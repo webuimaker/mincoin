@@ -1,40 +1,29 @@
 <div class="container-fluid section news">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h3 class="page-title col-md-9">Cryptocurrency News</h3>
-				<a href="/contact/" class="pull-right"><button class="gradient">Contact Our Team</button></a>
+			<div class="col-md-12 text-center">
+				<h3 class="page-title col-md-9">{{ langPath.news.heading }} </h3>
+				<a href="{{ langPath.news.readmoreUrl }}" class="pull-right btnmore"><button class="gradient">{{ langPath.news.readmoreText }}</button></a>
 			</div>
-			<div class="col-md-9">
-				<div class="row">
-					<div class="col-md-6">
-						<ul class="news-list font-sm">							
+			<div class="col-md-9 col-xs-12">
+				<div class="row order-container">
+					<div class="col-md-6 order-xs-1">
+						<ul class="news-list font-sm">
+						{% for newsCol1 in langPath.news.col1 limit:5 %}
 							<li>								
-								<h4><a href="https://www.mincoin.us/category/cryptocurrency-news/" title="Cryptocurrency News">More Cryptocurrency News</a></h4>								
-							</li>
+								<h4><a href="{{ newsCol1.linkUrl }}" title="Cryptocurrency News">{{ newsCol1.linktext }}</a></h4>							
+							</li>			
+						{% endfor %}
 						</ul>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 order-xs-2">
 						<ul class="news-list">
-							<li>
-								<a class="news-img" href="#">
-									<img src="https://www.mincoin.us/wp-content/uploads/2016/06/mincoin-crypto-coin-logo-color-300x300.jpg" alt="post image" class="img-responsive">
-								</a>
-								<h4><a href="#">Is MinCoin The Digital Commodity Solution?</a> </h4>
-								
-							</li>
-							<li>								
-								<h4><a href="#">Is MinCoin The Digital Commodity Solution?</a> </h4>								
-							</li>
-							<li>								
-								<h4><a href="#">Is MinCoin The Digital Commodity Solution?</a> </h4>								
-							</li>
-							<li>								
-								<h4><a href="#">Is MinCoin The Digital Commodity Solution?</a> </h4>								
-							</li>
-							<li>								
-								<h4><a href="#">Is MinCoin The Digital Commodity Solution?</a> </h4>								
-							</li>
+							{% for newsCol2 in langPath.news.col2 limit:5 %}
+								<li>
+									<h4><a href="{{ newsCol2.linkUrl }}">{{ newsCol2.linktext }}</a> </h4>									
+								</li>		
+							{% endfor %}
+							
 						</ul>
 					</div>
 				</div>

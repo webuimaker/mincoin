@@ -1,15 +1,17 @@
 <!doctype html>
 <html>
+{% assign pageName = '' %}
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
 <head>	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Blog Settings -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ page.keywords }}">
-	<meta name="author" content="{{ site.author }}">
-
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{{ langPath.head.keywords }}">	
+	<meta name="author" content="{% if page.author %}{{langPath.head.author}}{% else %}{{ langPath.head.author }}{% endif %}">	 
+	<meta name="description" content="{{langPath.head.meta.description}}">	
+	<title>{% if page.title %}{{langPath.head.title}}{% else %}{{ langPath.head.title }}{% endif %}</title>
 
 	<!-- Bootstrap CSS file -->
 	<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" />
@@ -23,6 +25,30 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<!-- Language Redirect -->
+<script>
+    (function () {
+      // Auto redirect to the appropriate language
+      var pathname = window.location.pathname;
+      var isDefaultPathname = (
+        pathname === '' ||
+        pathname === '/'
+      );
+      var DEFAULT_LANG = 'en';
+      var langs={};{% for lang in site.data.langs %}{% if lang[0] != page.lang %}langs['{{ lang[0] }}']=true;{% endif %}{% endfor %}
 
+      var lang = ((navigator.language || navigator.userLanguage || '').split('-') || [])[0];
+
+      if(!langs[lang]) {
+          lang = DEFAULT_LANG;
+      }
+
+      // If the user is not already on a language specific page and it is not the default language
+      if (isDefaultPathname && lang !== DEFAULT_LANG) {
+          window.location.href='/langs/' + lang + '/';
+      }
+  }());
+</script>
+		
 </head>
 

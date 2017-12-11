@@ -1,8 +1,24 @@
 <!-- Header -->
+{% assign basePath = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 0 %}{% assign basePath = '.' %}
+{% elsif depth == 1 %}{% assign basePath = '..' %}
+{% elsif depth == 2 %}{% assign basePath = '../..' %}
+{% elsif depth == 3 %}{% assign basePath = '../../..' %}
+{% elsif depth == 4 %}{% assign basePath = '../../../..' %}
+{% endif %}
 
+{% if depth == -1 or depth == 1 and page.lang == site.default_lang %}{% assign linkPath = basePath %}
+{% else %}{% capture linkPath %}{{ basePath }}/langs/{{page.lang}}{% endcapture %}
+{% endif %}
+
+{% assign langCodes = site.lang_codes %}
+{% if pageLangCodes %}{% assign langCodes = pageLangCodes %}
+{% endif %}
+ 
 <header class="navbar  mincoin-header" role="banner">
   <div class="container">
-    <div class="navbar-header">
+    <div class="navbar-header col-xs-8">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"> 
       	<span class="sr-only">Toggle navigation</span> 
         <span class="icon-bar"></span> 
@@ -43,8 +59,51 @@
       
     </nav>
 	<div class="social-icon pull-right">
+		<!--<ul>
+			{% if include.hide_lang_dropdown != true %}
+  <li class="lang-dropdown">
+    <label>{{langPath.lang_name}} <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+    <ul class="col-md-12">
+      {% if langCodes.size > 6 %}
+        <div class="col-md-6 lang-list-column">
+          {% for lang in langCodes %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 1 and lang != page.lang %}
+              <li>
+                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="col-md-12 lang-list-column">
+          {% for lang in langCodes %}
+            {% if lang != page.lang %}
+              <li>
+                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if langCodes.size > 6 %}
+        <div class="col-md-6 lang-list-column">
+          {% for lang in langCodes %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 0 and lang != page.lang %}
+              <li>
+                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </ul>
+  </li>
+{% endif %}
+		</ul>-->
 		<ul>
-			{% for social in site.socialicon %}
+			{% for social in langPath.socialicon %}
 				<li><a href="{{ social.url }}" target="_blank"><i class="{{ social.icon }}"></i></a> </li>
 			{% endfor %}
 		</ul>
