@@ -18,36 +18,18 @@
  
 <header class="navbar  mincoin-header" role="banner">
   <div class="container">
-    <div class="navbar-header col-xs-8">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"> 
+    <div class="navbar-header col-xs-5">
+     <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"> 
       	<span class="sr-only">Toggle navigation</span> 
         <span class="icon-bar"></span> 
         <span class="icon-bar"></span> 
         <span class="icon-bar"></span> 
-      </button>
+      </button> -->
       <a href="{{ site.baseurl }}/index.html" class="navbar-brand col-md-7">
       	<img src="{{ site.logo }}" alt="Boxupp Blog" class="img-responsive"><!--{{site.name}} -->
       </a> 
     </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse pull-right" role="navigation">
-      <!--<form class="navbar-form navbar-right" role="search" onsubmit="my_search_google()">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search" id="my-google-search"> 
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <form class="navbar-form navbar-right" action="{{site.baseurl}}/search" method="GET">
-	       <div class="form-group">
-	       <input type="text" class="form-control" name="query" placeholder="Search...">
-         </div>
-         <button type="submit" class="btn btn-default">Submit</button>
-      </form>-->
-    <!--  <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>-->
-      
+    <nav class="collapse navbar-collapse bs-navbar-collapse pull-right" role="navigation">     
        <ul class="nav navbar-nav">
       {% for p in site.navigation %}
         <li {% if p.url == page.url %}class="active"{% endif %} >
@@ -59,55 +41,28 @@
       
     </nav>
 	<div class="social-icon pull-right">
-		<!--<ul>
-			{% if include.hide_lang_dropdown != true %}
-  <li class="lang-dropdown">
-    <label>{{langPath.lang_name}} <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
-    <ul class="col-md-12">
-      {% if langCodes.size > 6 %}
-        <div class="col-md-6 lang-list-column">
-          {% for lang in langCodes %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            {% if loopindex == 1 and lang != page.lang %}
-              <li>
-                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% else %}
-        <div class="col-md-12 lang-list-column">
-          {% for lang in langCodes %}
-            {% if lang != page.lang %}
-              <li>
-                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      {% if langCodes.size > 6 %}
-        <div class="col-md-6 lang-list-column">
-          {% for lang in langCodes %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            {% if loopindex == 0 and lang != page.lang %}
-              <li>
-                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    </ul>
-  </li>
-{% endif %}
-		</ul>-->
 		<ul>
 			{% for social in langPath.socialicon %}
 				<li><a href="{{ social.url }}" target="_blank"><i class="{{ social.icon }}"></i></a> </li>
 			{% endfor %}
 		</ul>
 	</div>
+	<div class=" navbar-collapse pull-right langs-dropdown" id="bs-slide-dropdown">
+        <ul class="nav navbar-nav">           
+        	<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{langPath.lang_name}}  <span class="caret"></span></a>				
+			  <ul class="dropdown-menu" role="menu">
+				{% for lang in langCodes %}
+				{% if lang != page.lang %}
+				  <li>
+					<a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+				  </li>
+				{% endif %}
+			  {% endfor %}              
+			 </ul>                
+            </li>
+        </ul>
+		</div>
   
   </div>
 </header>

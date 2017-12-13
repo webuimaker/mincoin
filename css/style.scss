@@ -40,7 +40,7 @@ body{
 			Header Style
 ////////////////////////////////////////////// */
 .mincoin-header{
-	padding:20px 0px;
+	padding:10px 0px;
 	margin-bottom:0px;
 	.navbar-brand{
 		padding: 10px 0;
@@ -51,9 +51,21 @@ body{
 	
 
 }
+.langs-dropdown{
+	margin-top:5px;
+	.nav>li>a{
+		background:#000;
+		color:#fff;
+	}	
+	.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+		background:#197dab;
+		color:#fff;
+	}	
+}
 .social-icon{
 		margin-top:18px;
 		ul{
+			padding:0px;
 			li{
 				list-style:none;
 				display:inline-block;
@@ -416,7 +428,7 @@ footer{
 		  .order-xs-2{ order: 1; }
 	
 	}
-	
+	.langs-dropdown{margin-right:10px !important}
 
 }		
 

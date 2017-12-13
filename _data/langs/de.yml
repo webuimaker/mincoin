@@ -1,15 +1,15 @@
 ---
-lang_name: "Français"
+lang_name: "Deutsche"
 head:
   meta:
-    description: "Official MinCoin Website"
+    description: "Offizielle MinCoin Webseite"
     keywords: "MinCoin"
     author: "John"
   title: "MinCoin &#8211; Official MinCoin Website"
 ###Banner content
 banner:
  title: "Worlds # 1 Crypto-monnaie à grande vitesse "
- subTitle: "Based On Blockchain Technology"
+ subTitle: "Basiert auf der Blockchain-Technologie"
  image: "https://www.mincoin.us/wp-content/uploads/2017/10/mincoin-mnc-cryptocurrency-home.png"
  desc: "MinCoin (Min est l'abréviation de Minimalist) est une crypto-monnaie peer-to-peer utilisant scrypt comme un algorithme de preuve de travail. MinCoin a été publié le 3 avril 2013 avec zéro prémine."
  buttonUrl: "https://www.mincoin.us/mincoin-mnc-cryptocurrency-trading-exchanges/"
