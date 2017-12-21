@@ -7,20 +7,6 @@ email: webuimaker@gmail.com
 url: ""
 github : username
 twitter : username
-#baseurl: /Blog
-#navigation:
-# - title: Home
-#   url: /index.html
-# - title: About Us
-#   url: /about.html
-# - title: Category
-#   url: /category.html
-# - title: Contact
-#   url: /contact.html
-   
-###disqus: disqusId
-
-
 
 gems:
   - jekyll-feed
@@ -41,7 +27,9 @@ langs:
   'en': 'English'
   'fr': 'Français'
   'de': 'Deutsche'
+  #'nl': 'Nederlands'
 lang_codes:
   - 'en'
   - 'fr'
   - 'de'
+  - 'nl'
