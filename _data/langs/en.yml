@@ -98,19 +98,23 @@ extraLinks:
     linkUrl: https://twitter.com/mincoinus
   - linktext: MinCoin Facebook
     linkUrl: https://www.facebook.com/mincoin.us
+  - linktext: MinCoin Discord Channel
+    linkUrl: https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord
  tools:
   - linktext: MinCoin Wallet Backup
     linkUrl: http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/
-  - linktext: Mining Calcs &amp; Profitability
-    linkUrl: http://mincoinforum.com/index.php/forum/38-mining-calcs-and-profitability-tables/
+  - linktext: MinCoin Mining Pools
+    linkUrl: https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools
   - linktext: MinCoin CoinWiki
     linkUrl: http://coinwik.org/MinCoin
-  - linktext: Mining Calculator
-    linkUrl: http://www.coinwarz.com/calculators/mincoin-mining-calculator
+  - linktext: MinCoin On CoinMarketCap
+    linkUrl: https://coinmarketcap.com/currencies/mincoin 
   - linktext: Solo Mining
     linkUrl: http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/
   - linktext: MNC Mining Guides
     linkUrl: http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/
+  - linktext: MinCoin Block Explorer
+    linkUrl: http://cryptoexplore.com 
  learn:
   - linktext: MinCoin Source Code on Github
     linkUrl: https://github.com/mincoin
