@@ -7,7 +7,7 @@
 						<ul class="news-list font-sm">		
 								{% for communityLinks in langPath.extraLinks.community %}								
 									<li>								
-										<h4><a href="{{ communityLinks.linkUrl }}" title="{{ communityLinks.linktext }}">{{ communityLinks.linktext }}</a></h4>
+										<h4><a href="{{ communityLinks.linkUrl }}" title="{{ communityLinks.linktext }}" target="_blank">{{ communityLinks.linktext }}</a></h4>
 									</li>			
 								{% endfor %}
 						</ul>
@@ -18,7 +18,7 @@
 						<ul class="news-list font-sm">
 							{% for toolsLinks in langPath.extraLinks.tools %}								
 									<li>								
-										<h4><a href="{{ toolsLinks.linkUrl }}" title="{{ toolsLinks.linktext }}">{{ toolsLinks.linktext }}</a></h4>
+										<h4><a href="{{ toolsLinks.linkUrl }}" title="{{ toolsLinks.linktext }}" target="_blank">{{ toolsLinks.linktext }}</a></h4>
 									</li>			
 							{% endfor %}
 						</ul>
@@ -29,7 +29,7 @@
 						<ul class="news-list font-sm">							
 							{% for learnLinks in langPath.extraLinks.learn %}								
 									<li>								
-										<h4><a href="{{ learnLinks.linkUrl }}" title="{{ learnLinks.linktext }}">{{ learnLinks.linktext }}</a></h4>
+										<h4><a href="{{ learnLinks.linkUrl }}" title="{{ learnLinks.linktext }}" target="_blank">{{ learnLinks.linktext }}</a></h4>
 									</li>			
 							{% endfor %}
 						</ul>
