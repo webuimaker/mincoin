@@ -184,6 +184,7 @@ body{
 	padding:100px 0px;
 }
 .download-widget{
+	background-color: rgba(0, 0, 0, 0.0382);
 	h6{
 		font-size: 17.6px;
 		font-weight: 700;
@@ -386,6 +387,27 @@ footer{
 		padding-bottom:30px; 
 		font-size:13px;
 	}
+}
+.icon6-widget{
+	font-size:13px;
+	color:#777;
+	.widget-col{
+		margin-top:20px;
+		font-weight:500;
+		line-height:1.7em;
+		
+		ul{
+			padding:0px;
+			li{
+				list-style:none;
+			}
+		}
+	}
+	h4{
+		font-weight:600;
+		color:#2a2b33;
+	}
+
 }
 
 /******************************************************************************************
