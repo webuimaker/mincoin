@@ -8,7 +8,7 @@ head:
   title: "MinCoin &#8211; Official MinCoin Website"
 ###Banner content
 banner:
- title: "Worlds #1 High Speed Cryptocurrency"
+ title: "Worlds #1 <br> High Speed Cryptocurrency"
  subTitle: "Based On Blockchain Technology"
  image: "https://www.mincoin.us/wp-content/uploads/2017/10/mincoin-mnc-cryptocurrency-home.png"
  desc: "MinCoin (Min is short for Minimalist) is a peer-to-peer cryptocurrency using scrypt as a proof-of-work algorithm. MinCoin was released on April 3, 2013 with zero premine."
@@ -29,8 +29,7 @@ icons6:
 		  </ul>"
  - title: "Resources"
    icon: "fa-laptop"
-   desc: "Find general information, services, and exchanges that support MinCoin at the <a href='http://coinwik.org/MinCoin' target='_blank'>MinCoin CoinWiki</a>.
-Up-to-date network statistics can be found at MinCoin Block Explorer (LINK). MinCoin's current price is available at MinCoin On CoinMarketCap (LINK) "
+   desc: "Find general information, services, and exchanges that support MinCoin at the <a href='http://coinwik.org/MinCoin' target='_blank'>MinCoin CoinWiki</a>. Up-to-date network statistics can be found at <a href='http://cryptoexplore.com/' target='_blank'>MinCoin Block Explorer</a>. MinCoin's current price is available at  <a href='https://coinmarketcap.com/currencies/mincoin' target='_blank'>MinCoin On CoinMarketCap</a>  "
  - title: "Open Source Software"
    icon: "fa-heart "
    desc: "MinCoin is an open source software project released under the MIT/X11 license which gives you the power to run, modify, and copy the software and to distribute, at your option, modified copies of the software. The software is released in a transparent process that allows for independent verification of binaries and their corresponding source code. Source code for MinCoin and related projects are available on <a href='https://github.com/mincoin' target='_blank'>GitHub</a>."

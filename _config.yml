@@ -25,11 +25,11 @@ paginate_path: "/blog/page:num/"
 default_lang: 'en'
 langs:
   'en': 'English'
-  'fr': 'Français'
-  'de': 'Deutsche'
-  #'nl': 'Nederlands'
+  'nl': 'Dutch'
+  'vi': 'Vietnamese'
+  'de': 'German'
 lang_codes:
   - 'en'
-  - 'fr'
-  - 'de'
   - 'nl'
+  - 'vi'
+  - 'de'

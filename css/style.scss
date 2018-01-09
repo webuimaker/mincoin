@@ -132,7 +132,7 @@ body{
 		font-size: 5.7rem;
 		margin: 0 auto;
 		color:#fff;
-		width:65%;	
+		/*width:77%;	*/
 		z-index:2;	
 		position:relative;
 		font-weight:700;
@@ -395,6 +395,7 @@ footer{
 		margin-top:20px;
 		font-weight:500;
 		line-height:1.7em;
+		min-height:355px;
 		
 		ul{
 			padding:0px;
