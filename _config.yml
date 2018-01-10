@@ -28,8 +28,12 @@ langs:
   'nl': 'Dutch'
   'vi': 'Vietnamese'
   'de': 'German'
+  'jv': 'Javanese'
+  'ru': 'Russian'
 lang_codes:
   - 'en'
   - 'nl'
   - 'vi'
   - 'de'
+  - 'jv'
+  - 'ru'
