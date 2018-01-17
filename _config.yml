@@ -30,6 +30,7 @@ langs:
   'de': 'German'
   'jv': 'Javanese'
   'ru': 'Russian'
+  'tr': 'Turkish'  
 lang_codes:
   - 'en'
   - 'nl'
@@ -37,3 +38,4 @@ lang_codes:
   - 'de'
   - 'jv'
   - 'ru'
+  - 'tr'
