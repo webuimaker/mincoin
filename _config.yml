@@ -47,6 +47,6 @@ lang_codes:
   - 'ja'
   - 'ko'
   - 'bn'
-  - 'ar'
+  #- 'ar'
   - 'zh-hans'
   - 'zh-hant'

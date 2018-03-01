@@ -9,7 +9,7 @@
 {% endif %}
 
 {% if depth == -1 or depth == 1 and page.lang == site.default_lang %}{% assign linkPath = basePath %}
-{% else %}{% capture linkPath %}{{ basePath }}/langs/{{page.lang}}{% endcapture %}
+{% else %}{% capture linkPath %}{{ basePath }}/{{page.lang}}{% endcapture %}
 {% endif %}
 
 {% assign langCodes = site.lang_codes %}
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span> 
         <span class="icon-bar"></span> 
       </button> -->
-      <a href="{{ site.baseurl }}/index.html" class="navbar-brand col-md-7">
+      <a href="{{ site.baseurl }}/" class="navbar-brand col-md-7">
       	<img src="{{ site.logo }}" alt="Boxupp Blog" class="img-responsive"><!--{{site.name}} -->
       </a> 
     </div>
@@ -55,7 +55,7 @@
 				{% for lang in langCodes %}
 				{% if lang != page.lang %}
 				  <li>
-					<a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+					<a href="{{basePath}}/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
 				  </li>
 				{% endif %}
 			  {% endfor %}              
