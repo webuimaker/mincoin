@@ -29,14 +29,13 @@
 						<ul class="news-list">
 							{% for post in site.posts offset: 0 limit: 5 %}
 								<li>
-									<h4><a href="{{post.permalink}}">{{post.title}}</a> </h4>									
+									<h4><a href="/{{post.permalink}}">{{post.title}}</a> </h4>									
 								</li>		
 							{% endfor %}
 							
 						</ul>
 						
 					</div>
-					
 					
 					
 					
