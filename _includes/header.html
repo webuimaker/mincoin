@@ -55,7 +55,7 @@
 				{% for lang in langCodes %}
 				{% if lang != page.lang %}
 				  <li>
-					<a href="{{basePath}}/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+					<a href="{% if lang =='en'%} {{basePath}}/ {% else if %} {{basePath}}/{{lang}}/{{pageName}} {% endif %}">{{site.langs[lang]}}</a>
 				  </li>
 				{% endif %}
 			  {% endfor %}              
