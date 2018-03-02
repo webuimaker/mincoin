@@ -4,22 +4,34 @@ logo: "/images/cropped-mincoin-logo-png.png"
 description: "Official MinCoin Website"
 author: "John"
 email: webuimaker@gmail.com
-url: "https://www.mincoinfoundation.com"
+url: ""
 github : username
 twitter : username
+# Permalinks
+permalink:  pretty
+
+
+socialicon:
+ - title: Facebook
+   icon: fa fa-facebook
+   url: https://www.facebook.com/mincoin.us
+ - title: Twitter
+   icon: ti-twitter
+   url: https://twitter.com/mincoinus
 
 gems:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-sitemap  
+  - jekyll-gist
 exclude:
   - Gemfile
   - Gemfile.lock   
 ### pagination
-paginate: 4
-paginate_path: "/blog/page:num/"
+paginate: 5
+paginate_path: "/page:num/"
 # Lang settings
 default_lang: 'en'
 langs:
