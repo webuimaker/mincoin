@@ -22,6 +22,7 @@ group :jekyll_plugins do
    gem "jekyll-redirect-from", "~> 0.12.1"
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
+   gem 'jekyll-gist'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

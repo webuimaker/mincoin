@@ -29,19 +29,39 @@
 	
 	<!-- Jekyll SEO Tag Plugin -->
 	{% seo %}
-	<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/nl/" hreflang="nl">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/vi/" hreflang="vi">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/de/" hreflang="de">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/jv/" hreflang="jv">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/ru/" hreflang="ru">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/tr/" hreflang="tr">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/ja/" hreflang="ja">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/ko/" hreflang="ko">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/bn/" hreflang="bn">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/ar/" hreflang="ar">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/zh-hans/" hreflang="zh-hans">
-	<link rel="alternate" href="https://www.mincoinfoundation.com/langs/zh-hant/" hreflang="zh-hant">
+	
+	{% if page.layout == 'default' %}
+		<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/nl/" hreflang="nl">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/vi/" hreflang="vi">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/de/" hreflang="de">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/jv/" hreflang="jv">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ru/" hreflang="ru">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/tr/" hreflang="tr">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ja/" hreflang="ja">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ko/" hreflang="ko">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/bn/" hreflang="bn">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ar/" hreflang="ar">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hans/" hreflang="zh-hans">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hant/" hreflang="zh-hant">
+	{% else if page.layout == 'post' %}	
+		<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/nl/" hreflang="nl">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/vi/" hreflang="vi">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/de/" hreflang="de">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/jv/" hreflang="jv">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ru/" hreflang="ru">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/tr/" hreflang="tr">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ja/" hreflang="ja">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ko/" hreflang="ko">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/bn/" hreflang="bn">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/ar/" hreflang="ar">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hans/" hreflang="zh-hans">
+		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hant/" hreflang="zh-hant">
+	{% endif %}
+	
+	
+	
 	<!-- Language Redirect -->
 <script>
     (function () {
@@ -62,7 +82,8 @@
 
       // If the user is not already on a language specific page and it is not the default language
       if (isDefaultPathname && lang !== DEFAULT_LANG) {
-          window.location.href='/langs/' + lang + '/';
+          window.location.href='/' + lang + '/';
+		  //window.location.href='/langs/' + lang + '/';
       }
   }());
 </script>

@@ -17,15 +17,28 @@
 						</ul>
 					</div> -->
 					<div class="col-md-9 col-md-push-3 order-xs-2">
-						<ul class="news-list">
+						<!--<ul class="news-list">
 							{% for newsCol2 in langPath.news.col2 limit:5 %}
 								<li>
 									<h4><a href="{{ newsCol2.linkUrl }}">{{ newsCol2.linktext }}</a> </h4>									
 								</li>		
 							{% endfor %}
 							
+						</ul> -->
+						
+						<ul class="news-list">							
+							{% for post in site.posts limit:5 %}
+								<li>
+									<h4><a href="/{{post.permalink}}">{{post.title}}</a> </h4>									
+								</li>		
+							{% endfor %}
+							
 						</ul>
+						
 					</div>
+					
+					
+					
 				</div>
 			</div>
 				
