@@ -6,13 +6,15 @@
 
 <div class="container">
 
-<article class="post">  
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+<article class="post"> 
+{% if page.url != "/news/" or page.url != "/category/cryptocurrency-news/"  %} 
+ <time datetime="{{ page.date  }}" class="post-date">{{ page.date }}</time>
+ {% endif %}
   {{ content }}
 </article>
 
  <div class="clearfix"></div>
-          <ul class="pager">
+           <ul class="pager hide {% if page.pageShow == "true"  %} show {% endif %} "  >
             {% if page.previous.url != " " %}
             <li class="previous"><a href="{{page.previous.url}}">← Pre</a></li>
             {% endif %}

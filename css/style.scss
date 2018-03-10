@@ -515,7 +515,38 @@ footer{
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
-
+.blog-list{
+	margin-bottom:30px;
+	&:last-child{margin-bottom:0px;}
+	
+	a:hover{
+				text-decoration:underline;
+			} 
+	.published{
+		font-size:13px;
+		color:#2a2b33;
+	}
+	.more-link{
+		color:#2a2b33;
+		font-weight:600;
+	}
+	.post-title{
+		font-weight:600;
+		margin-bottom:1rem;
+		a{
+			color:#2a2b33;
+			&:hover{
+				text-decoration:underline;
+			}
+			
+		}
+	}
+	.post-description{
+		font-size:16px;
+		color: #85889b;
+		line-height:1.6em;
+	}
+}
 
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
