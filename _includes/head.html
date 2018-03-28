@@ -3,6 +3,7 @@
 {% assign langPath = site.data.langs[page.lang] %}
 {% assign defaultLangPath = site.data.langs.en %}
 <head>	
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Blog Settings -->
@@ -10,7 +11,9 @@
     <meta name="keywords" content="{{ langPath.head.keywords }}">	
 	<meta name="author" content="{% if page.author %}{{langPath.head.author}}{% else %}{{ langPath.head.author }}{% endif %}">	 
 	<meta name="description" content="{{langPath.head.meta.description}}">	
-	<title>{% if page.title %}{{langPath.head.title}}{% else %}{{ langPath.head.title }}{% endif %}</title>
+	
+	
+	
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
@@ -31,6 +34,7 @@
 	{% seo %}
 	
 	{% if page.layout == 'default' %}
+		<title>{% if page.title %}{{langPath.head.title}}{% else %}{{ langPath.head.title }}{% endif %}</title>
 		<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/nl/" hreflang="nl">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/vi/" hreflang="vi">
@@ -45,6 +49,7 @@
 		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hans/" hreflang="zh-hans">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hant/" hreflang="zh-hant">
 	{% else if page.layout == 'post' %}	
+		<title>{{ page.title }} - MinCoin Cryptocurrency News </title>
 		<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/nl/" hreflang="nl">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/vi/" hreflang="vi">

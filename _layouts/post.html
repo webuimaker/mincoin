@@ -8,13 +8,16 @@
 
 <article class="post"> 
 {% if page.url != "/news/" or page.url != "/category/cryptocurrency-news/"  %} 
- <time datetime="{{ page.date  }}" class="post-date">{{ page.date }}</time>
+ <time datetime="{{ page.date |  date: "%-d %B %Y"    }}" class="post-date">{{ page.date |  date: "%-d %B %Y"  }}</time>
  {% endif %}
   {{ content }}
 </article>
 
  <div class="clearfix"></div>
-           <ul class="pager hide {% if page.pageShow == "true"  %} show {% endif %} "  >
+
+{% include related-post.html%}
+ 
+           <ul class="pager hide {% if page.pageShow == "true"  %} hide {% endif %} "  >
             {% if page.previous.url != " " %}
             <li class="previous"><a href="{{page.previous.url}}">← Pre</a></li>
             {% endif %}

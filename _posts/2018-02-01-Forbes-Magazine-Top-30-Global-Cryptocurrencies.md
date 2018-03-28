@@ -4,6 +4,7 @@ title: Forbes Magazine Top 30 Global Cryptocurrencies
 permalink: forbes-magazine-top-30-global-cryptocurrencies
 categories: CryptocurrencyNews
 pageShow: 'true'
+tags: Cryptocurrencies
 ---
 
 
