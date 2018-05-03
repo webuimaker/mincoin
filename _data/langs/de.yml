@@ -12,7 +12,7 @@ banner:
  subTitle: "Basierend auf der Blockchain-Technologie"
  image: "https://www.mincoin.us/wp-content/uploads/2017/10/mincoin-mnc-cryptocurrency-home.png"
  desc: "MinCoin (Min ist die Abkürzung für Minimalist) ist eine Peer-to-Peer-Kryptowährung, die Scrypt als Arbeitsbeweis-Algorithmus verwendet. MinCoin wurde am 3. April 2013 mit null Premine veröffentlicht."
- buttonUrl: "https://www.mincoin.us/mincoin-mnc-cryptocurrency-trading-exchanges/"
+ buttonUrl: "mincoin-mnc-cryptocurrency-trading-exchanges"
  buttonText: "Jetzt mit CryptoCurrency Exchanges handeln"
 ###6 icon content
 icons6:

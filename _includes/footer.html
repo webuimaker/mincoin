@@ -21,6 +21,7 @@
 		</div>
 	</div>
 	<div class="container copyright"> 
-    	<p>{{langPath.footer.copyright}} </p>
+    	<p style="display:none;">{{langPath.footer.copyright}}  {{ "now" | date: "%Y" }} </p>
+		<p>© Copyright 2013-{{ "now" | date: "%Y" }} · The MinCoin Developers </p>
     </div>
 </footer>

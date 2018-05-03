@@ -12,7 +12,7 @@ banner:
  subTitle: "Основанная на технологии Блокчейн"
  image: "https://www.mincoin.us/wp-content/uploads/2017/10/mincoin-mnc-cryptocurrency-home.png"
  desc: "MinCoin (Min - это сокращение от Minimalist) - это криптовалюта с одноранговым доступом, которая использует скрипт в качестве алгоритма проверки работоспособности. MinCoin была выпущена 3 апреля 2013 года с нулевым предварительным майнингом."
- buttonUrl: "https://www.mincoin.us/mincoin-mnc-cryptocurrency-trading-exchanges/"
+ buttonUrl: "mincoin-mnc-cryptocurrency-trading-exchanges"
  buttonText: "Торгуем на бирже криптовалют сейчас"
 ###6 icon content
 icons6:

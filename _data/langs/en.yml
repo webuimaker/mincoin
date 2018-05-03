@@ -12,7 +12,7 @@ banner:
  subTitle: "Based On Blockchain Technology"
  image: "https://www.mincoin.us/wp-content/uploads/2017/10/mincoin-mnc-cryptocurrency-home.png"
  desc: "MinCoin (Min is short for Minimalist) is a peer-to-peer cryptocurrency using scrypt as a proof-of-work algorithm. MinCoin was released on April 3, 2013 with zero premine."
- buttonUrl: "https://www.mincoin.us/mincoin-mnc-cryptocurrency-trading-exchanges/"
+ buttonUrl: "mincoin-mnc-cryptocurrency-trading-exchanges"
  buttonText: "Now Trading on Exchanges"
 ###6 icon content
 icons6:
