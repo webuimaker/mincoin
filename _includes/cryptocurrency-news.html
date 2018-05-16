@@ -2,8 +2,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h3 class="page-title col-md-9">{{ langPath.news.heading }} </h3>
-				<a href="{{ langPath.news.readmoreUrl }}" class="pull-right btnmore"><button class="gradient">{{ langPath.news.readmoreText }}</button></a>
+				<h3 class="page-title col-md-9">
+					{%  if page.layout == 'default' %} {{ langPath.news.heading }} {%  else if page.layout == 'post' %} {{ defaultLangPath.news.heading }}    {% endif %} 
+				
+				 </h3>
+				<a href="{{ langPath.news.readmoreUrl }}" class="pull-right btnmore"><button class="gradient">
+					{%  if page.layout == 'default' %} {{ langPath.news.readmoreText }} {%  else if page.layout == 'post' %} {{ defaultLangPath.news.readmoreText }}    {% endif %} 
+				
+				</button></a>
 			</div>
 			<div class="col-md-9 col-xs-12">
 				<div class="row order-container">

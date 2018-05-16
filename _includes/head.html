@@ -30,11 +30,12 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 	
-	<!-- Jekyll SEO Tag Plugin -->
-	{% seo %}
+	
 	
 	{% if page.layout == 'default' %}
 		<title>{% if page.title %}{{langPath.head.title}}{% else %}{{ langPath.head.title }}{% endif %}</title>
+		<!-- Jekyll SEO Tag Plugin -->
+		{% seo %}
 		<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/nl/" hreflang="nl">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/vi/" hreflang="vi">
@@ -48,8 +49,12 @@
 		<link rel="alternate" href="https://www.mincoinfoundation.com/ar/" hreflang="ar">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hans/" hreflang="zh-hans">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/zh-hant/" hreflang="zh-hant">
-	{% else if page.layout == 'post' %}	
-		<title>{{ page.title }} - MinCoin Cryptocurrency News </title>
+		
+		{% endif %}
+	{%  if page.layout == 'post' %}	
+		<title>{{ page.title }} - MinCoin Cryptocurrency News  </title>
+		<!-- Jekyll SEO Tag Plugin -->
+		{% seo title=false %}
 		<link rel="alternate" href="https://www.mincoinfoundation.com" hreflang="en">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/nl/" hreflang="nl">
 		<link rel="alternate" href="https://www.mincoinfoundation.com/vi/" hreflang="vi">
