@@ -26,9 +26,7 @@
 		<div class="col-md-6">
 			<div class="social-icon footer">
 				<ul>
-					{% for social in langPath.socialicon %}
-						<li><a href="{{ social.url }}" target="_blank"><i class="{{ social.icon }}"></i> </a> </li>
-					{% endfor %}
+				
 					
 					{%  if page.layout == 'default' %}  
 						{% for social in langPath.socialicon %}
