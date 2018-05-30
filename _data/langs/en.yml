@@ -20,11 +20,11 @@ icons6:
    icon: "fa-group"
    desc: "Find free support from these MinCoin communities: <ul>
           <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin Forum</a></li>
-		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Dischord Channel</a></li>
+		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Discord Channel</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
 		  <li><a href='https://www.facebook.com/mincoin.us' target='_blank'>MinCoin Facebook</a></li>
-		  <li><a href='https://bitcointalk.org/index.php?topic=165397.0' target='_blank'>MinCoin Bitcoin Talk</a></li>
+		  <li><a href='https://bitcointalk.org/index.php?topic=165397.0' target='_blank'>MinCoin BitcoinTalk</a></li>
 		  <li><a href='http://webchat.freenode.net/?channels=#mincoin' target='_blank'>IRC FreeNode</a></li>
 		  </ul>"
  - title: "Resources"
@@ -33,7 +33,7 @@ icons6:
  - title: "Open Source Software"
    icon: "fa-heart "
    desc: "MinCoin is an open source software project released under the MIT/X11 license which gives you the power to run, modify, and copy the software and to distribute, at your option, modified copies of the software. The software is released in a transparent process that allows for independent verification of binaries and their corresponding source code. Source code for MinCoin and related projects are available on <a href='https://github.com/mincoin' target='_blank'>GitHub</a>."
- - title: "Blockchain"
+ - title: "Blockchain Technology"
    icon: "fa-link "
    desc: "The MinCoin blockchain is capable of handling higher transaction volume than its counterpart - Litecoin. Due to more frequent block generation, the network supports more transactions without a need to modify the software in the future. As a result, merchants and users get faster confirmation times."
  - title: "Wallet Encryption"
@@ -41,7 +41,7 @@ icons6:
    desc: "Wallet encryption allows you to secure your wallet, so that you can view transactions and your account balance, but are required to enter your password before spending MinCoins. This provides protection from wallet-stealing viruses and trojans as well as a sanity check before sending payments.  <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin Wallet Backup</a>."
  - title: "Mining Reward"
    icon: "fa-money "
-   desc: "Miners are currently awarded with 2 new MinCoins per block. The MinCoin network is therefore scheduled to produce 10 million MinCoins, which makes mincoin significantly more rare than Bitcoin (24 million coins) and Litecoin (84 million coins).<ul>
+   desc: "Miners are currently awarded with 2 new MinCoins per block. The MinCoin network is therefore scheduled to produce 10 million MinCoins, which makes mincoin significantly more rare than Bitcoin (21 million coins) and Litecoin (84 million coins).<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>Solo Mining</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MNC Mining Guides</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoin Mining Pools</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: Learn More About MinCoin
  buttonText: MinCoin Whitepaper
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: Cryptocurrency News
@@ -120,7 +120,7 @@ extraLinks:
  learnHeading: Learn About MinCoin
  community:
   - linktext: MinCoin Forum
-    linkUrl: http://mincoinforum.com/
+    linkUrl: https://www.mincoinforum.com
   - linktext: IRC Chat
     linkUrl: http://webchat.freenode.net/?channels=#mincoin
   - linktext: Reddit /r/mincoin
