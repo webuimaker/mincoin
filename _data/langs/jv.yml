@@ -41,7 +41,7 @@ icons6:
    desc: "Engkripsi kanggo wallet nyebabke kowe iso ngamanke walletmu, supaya kowe iso nonton transaksi lan saldo rekeningmu, tapi kowe kudu nglebokake sandimu sakdurunge mbelanjakne MinCoins. Tumindak ini menehi proteksi tumrap trojan lan virus sing nyolong wallet uga kanggo mriksa kejelasanmu sak durunge ngelakoni pembayaran <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>Cadangan Wallet MinCoin</a>."
  - title: "Hadiah Mining"
    icon: "fa-money "
-   desc: "Para miner sak iki oleh hadiah 2 MinCoins anyar per blok. Jejaringane MinCoin iku ngunu dijadwale mroduksi 10 yuta MinCoins, iki sing nyebabake MinCoin luwih langka saka Bitcoin (24 yuta koin) lan Litecoin (84 yuta koin). <ul>
+   desc: "Para miner sak iki oleh hadiah 2 MinCoins anyar per blok. Jejaringane MinCoin iku ngunu dijadwale mroduksi 10 yuta MinCoins, iki sing nyebabake MinCoin luwih langka saka Bitcoin (21 yuta koin) lan Litecoin (84 yuta koin). <ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>Mining Ijen</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>Pedomane Mining MNC</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>Pool-pool kanggo Mining MinCoin</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: Sinau Luwih Akeh Soal MinCoin
  buttonText: Buku putihe MinCoin
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: Kabar Cryptocurrency
@@ -108,7 +108,7 @@ extraLinks:
  learnHeading: Sinau Soal MinCoin
  community:
   - linktext: Forume MinCoin
-    linkUrl: http://mincoinforum.com/
+    linkUrl: https://www.mincoinforum.com
   - linktext: Jagongan IRC
     linkUrl: http://webchat.freenode.net/?channels=#mincoin
   - linktext: Reddit /r/mincoin

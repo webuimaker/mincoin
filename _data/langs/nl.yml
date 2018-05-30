@@ -33,7 +33,7 @@ icons6:
  - title: "Open Source Software"
    icon: "fa-heart "
    desc: "MinCoin is een open source softwareproject uitgegeven onder de MIT/X11-licentie, waardoor iedereen de broncode naar eigen wens uit kan voeren, aan kan passen, kan kopiëren en kan verspreiden. De software wordt volgens een transparant proces gepubliceerd en de binaries en corresponderende code kunnen onafhankelijk geverifieerd worden. De broncode van MinCoin en gerelateerde projecten is beschikbaar op  <a href='https://github.com/mincoin' target='_blank'>GitHub</a>."
- - title: "Blockchain"
+ - title: "Blockchain Technology"
    icon: "fa-link "
    desc: "De MinCoin-blockchain kan per seconde meer transacties verwerken dan de Litecoin-blockchain. Dankzij de hoge frequentie waarmee blocks gegenereerd worden, kan het netwerk probleemloos toekomstige groei opvangen. Handelaren en gebruikers profiteren van snellere bevestigingstijden"
  - title: "Wallet-beveiliging"
@@ -41,7 +41,7 @@ icons6:
    desc: "Wallets zijn altijd versleuteld. Transacties en saldo kunnen vrij bekeken worden, maar een wachtwoord is noodzakelijk voor het uitgeven van MinCoins. Hierdoor is de wallet beschermd tegen virussen en malware en kunnen overschrijvingen nog een extra keer gecontroleerd worden. <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin Wallet Backup</a>."
  - title: "Mining Reward"
    icon: "fa-money "
-   desc: "Miners ontvangen twee nieuwe MinCoins per block. Er kunnen maximaal tien miljoen MinCoins geproduceerd worden, waardoor MinCoin aanzienlijk zeldzamer is dan Bitcoin (maximaal 24 miljoen) and Litecoin (maximaal 84 miljoen).<ul>
+   desc: "Miners ontvangen twee nieuwe MinCoins per block. Er kunnen maximaal tien miljoen MinCoins geproduceerd worden, waardoor MinCoin aanzienlijk zeldzamer is dan Bitcoin (maximaal 21 miljoen) and Litecoin (maximaal 84 miljoen).<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>MinCoin solo mining</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MinCoin mining guides</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoin mining pools</a></li>
@@ -77,7 +77,7 @@ MinCoinDownload:
 contact: #TRANSLATE HERE 
  contactHeading: Lees meer over MinCoin
  buttonText: MinCoin whitepaper
- contentUrl: #
+ contentUrl: https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/
  
 news: #TRANSLATE HERE [heading, linktext ]
  heading: Cryptocurrency-nieuws
@@ -121,7 +121,7 @@ extraLinks:
  learnHeading: Lees meer over MinCoin
  community:
   - linktext: MinCoin Forum
-    linkUrl: http://mincoinforum.com/
+    linkUrl: https://www.mincoinforum.com
   - linktext: IRC FreeNode
     linkUrl: http://webchat.freenode.net/?channels=#mincoin
   - linktext: MinCoin Reddit

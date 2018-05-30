@@ -41,7 +41,7 @@ icons6:
    desc: "Шифрования кошелька позволяет обезопасить ваш кошелек, так, что вы можете просматривать транзакции и баланс вашего счета, но вам необходимо ввести свой пароль, прежде чем тратить MinCoins. Это обеспечивает защиту от кражи баланса кошелька вирусами и троянами, а также проверку работоспособности перед отправкой платежей. Резервное копирование кошелька  <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin</a>."
  - title: "Награда майнерам"
    icon: "fa-money "
-   desc: "В настоящее время, майнеры получают 2 новых MinCoins за блок.Таким образом, в сети MinCoin планируется произвести 10 миллионов MinCoins, что делает MinCoin более редкой монетой, чем биткойн (24 миллиона монет) и Litecoin (84 миллиона монет).<ul>
+   desc: "В настоящее время, майнеры получают 2 новых MinCoins за блок.Таким образом, в сети MinCoin планируется произвести 10 миллионов MinCoins, что делает MinCoin более редкой монетой, чем биткойн (21 миллиона монет) и Litecoin (84 миллиона монет).<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>Соло майнинг</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>Руководства для майнинга MNC</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>Пулы для майнинга MinCoin</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: Узнать больше о MinCoin
  buttonText: Техническая документация MinCoin
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: Новости криптовалют
@@ -108,7 +108,7 @@ extraLinks:
  learnHeading: Узнать о MinCoin
  community:
   - linktext: Форум MinCoin
-    linkUrl: http://mincoinforum.com/
+    linkUrl: https://www.mincoinforum.com
   - linktext: IRC чат
     linkUrl: http://webchat.freenode.net/?channels=#mincoin
   - linktext: Reddit /r/mincoin

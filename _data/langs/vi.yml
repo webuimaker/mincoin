@@ -20,7 +20,7 @@ icons6:
    icon: "fa-group"
    desc: "Tìm sự hỗ trợ miễn phí từ các cộng đồng MinCoin:<ul>
           <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>Diễn đàn MinCoin </a></li>
-		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>Kênh MinCoin Dischord</a></li>
+		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>Kênh MinCoin Discord</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
 		  <li><a href='https://www.facebook.com/mincoin.us' target='_blank'>MinCoin Facebook</a></li>
@@ -41,7 +41,7 @@ icons6:
    desc: "Mã hóa ví tiền cho phép bạn bảo đảm ví tiền của bạn, do đó bạn có thể xem các giao dịch và số dư tài khoản của bạn, nhưng cần phải nhập mật khẩu trước khi chi tiêu MinCoins. Điều này giúp bảo vệ khỏi các virus và Trojan ăn cắp ví tiền cũng như kiểm tra tính đúng của hệ thống trước khi gửi tiền. <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>Dự phòng ví tiền MinCoin</a>."
  - title: "Phần thưởng đào"
    icon: "fa-money "
-   desc: "Thợ đào hiện được thưởng 2 Mincoin mới trên mỗi khối. Mạng lưới Mincoin do đó được lên lịch trình sản xuất 10 triệu MinCoins, làm cho số lượng mincoin ít hơn nhiều so với Bitcoin (24 triệu coin) và Litecoin (84 triệu coin).<ul>
+   desc: "Thợ đào hiện được thưởng 2 Mincoin mới trên mỗi khối. Mạng lưới Mincoin do đó được lên lịch trình sản xuất 10 triệu MinCoins, làm cho số lượng mincoin ít hơn nhiều so với Bitcoin (21 triệu coin) và Litecoin (84 triệu coin).<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>Đào một mình</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>Hướng dẫn đào MNC</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>Mỏ đào MinCoin </a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: Tìm hiểu thêm về MinCoin
  buttonText: Sách trắng MinCoin 
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: Tin tức tiền kỹ thuật số đồng đẳng
@@ -108,7 +108,7 @@ extraLinks:
  learnHeading: Tìm hiểu về MinCoin
  community:
   - linktext: Diễn đàn MinCoin 
-    linkUrl: http://mincoinforum.com/
+    linkUrl: https://www.mincoinforum.com
   - linktext: IRC Chat
     linkUrl: http://webchat.freenode.net/?channels=#mincoin
   - linktext: Reddit /r/mincoin

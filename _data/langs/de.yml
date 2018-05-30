@@ -20,7 +20,7 @@ icons6:
    icon: "fa-group"
    desc: "Es erwartet Sie kostenlose Unterstützung von diesen MinCoin-Communities: <ul>
           <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin Forum</a></li>
-		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Dischord Kanal</a></li>
+		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Discord Kanal</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
 		  <li><a href='https://www.facebook.com/mincoin.us' target='_blank'>MinCoin Facebook</a></li>
@@ -41,7 +41,7 @@ icons6:
    desc: "Mit der Wallet-Verschlüsselung können Sie Ihre Brieftasche sichern, so dass Sie zwar Transaktionen und Ihr Kontoguthaben einsehen können, jedoch Ihr Passwort eingeben müssen, bevor Sie MinCoins ausgeben. Dies bietet Schutz vor Viren und Trojanern, die Brieftaschen befallen. Außerdem bietet es eine Plausibilitätsprüfung vor dem Senden von Zahlungen. Ein sogenanntes <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin Wallet Backup</a>."
  - title: "Mining-Belohnung"
    icon: "fa-money "
-   desc: "Miner erhalten derzeit 2 neue MinCoins pro Block. Das MinCoin-Netzwerk soll daher 10 Millionen MinCoins produzieren, was den Mincoin deutlich seltener macht als Bitcoin (24 Millionen Münzen) und Litecoin (84 Millionen Münzen).<ul>
+   desc: "Miner erhalten derzeit 2 neue MinCoins pro Block. Das MinCoin-Netzwerk soll daher 10 Millionen MinCoins produzieren, was den Mincoin deutlich seltener macht als Bitcoin (21 Millionen Münzen) und Litecoin (84 Millionen Münzen).<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>Solo Mining</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MNC-Mining Guides</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoin Mining Pools</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: Mehr Infos über MinCoin
  buttonText: MinCoin Whitepaper
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: Kryptowährung News
@@ -108,7 +108,7 @@ extraLinks:
  learnHeading: Erfahren Sie mehr über MinCoin
  community:
   - linktext: MinCoin Forum
-    linkUrl: http://mincoinforum.com/
+    linkUrl: https://www.mincoinforum.com
   - linktext: IRC-Chat
     linkUrl: http://webchat.freenode.net/?channels=#mincoin
   - linktext: Reddit / r / Mincoin
