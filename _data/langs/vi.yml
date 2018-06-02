@@ -18,8 +18,8 @@ banner:
 icons6:
  - title: "Cộng đồng"
    icon: "fa-group"
-   desc: "Tìm sự hỗ trợ miễn phí từ các cộng đồng MinCoin:<ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>Diễn đàn MinCoin </a></li>
+   desc: "Tìm hỗ trợ miễn phí trên các nền tảng cộng đồng MinCoin này<ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>Diễn đàn MinCoin </a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>Kênh MinCoin Discord</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
@@ -33,7 +33,7 @@ icons6:
  - title: "Phần mềm nguồn"
    icon: "fa-heart "
    desc: "MinCoin là dự án phần mềm nguồn mở được phát hành theo giấy phép MIT/X11 mang đến cho bạn khả năng để vận hành, sửa đổi, và sao chép phần mềm và để phân phối, theo lựa chọn của bạn, các bản sao sửa đổi của phần mềm. Phầm mềm được phát hành theo một quá trình minh bạch cho phép kiểm tra độc lập các nhị phân và mã nguồn tương ứng của chúng. Mã nguồn cho MinCoin và các dự án liên quan có sẵn trên  <a href='https://github.com/mincoin' target='_blank'>GitHub</a>."
- - title: "Chuỗi khối"
+ - title: "Công nghệ Blockchain"
    icon: "fa-link "
    desc: "Chuối khối MinCoin có khả năng xử lý khối lượng giao dịch lớn hơn bản đối xứng - Litecoin. Do sự sản sinh khối diễn ra thường xuyên hơn, mạng lưới hỗ trợ nhiều giao dịch hơn mà không cần sửa đổi phần mềm trong tương lại. Kết quả là, người buôn bán và người dùng có thời gian xác nhận nhanh hơn."
  - title: "Mã hóa ví tiền"

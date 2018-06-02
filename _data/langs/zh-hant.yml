@@ -19,7 +19,7 @@ icons6:
  - title: "社區"
    icon: "fa-group"
    desc: "從以下簡約幣社區尋求免費支持：<ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'> 簡約幣論壇</a></li>
+          <li><a href='https://www.mincoinforum.com' target='_blank'> 簡約幣論壇</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>簡約幣發行者頻道</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>紅迪網簡約幣</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>推特簡約幣</a></li>
@@ -41,7 +41,7 @@ icons6:
    desc: "加密錢包可加強錢包的安全性，您可以流覽交易記錄和帳戶餘額，但在支付簡約幣之前，需要輸入密碼。加密錢包可防止一些盜取資金的病毒及特洛伊木馬病毒，在支付之前還可以進行完整性檢查。 <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'> 簡約幣錢包備份 </a>。"
  - title: "挖礦獎勵"
    icon: "fa-money "
-   desc: "現在每個區塊會給挖礦人2個新簡約幣獎勵。簡約幣網路預計生產1千萬個簡約幣，相較比特幣（240萬）和萊特幣（840萬）更加稀有。<ul>
+   desc: "現在每個區塊會給挖礦人2個新簡約幣獎勵。簡約幣網路預計生產1千萬個簡約幣，相較比特幣（210萬）和萊特幣（840萬）更加稀有。<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>單人挖礦</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>移動網路碼挖礦指南</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>簡約幣挖礦池</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: 瞭解更多簡約幣內容
  buttonText: 簡約幣白皮書
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: 加密貨幣資訊

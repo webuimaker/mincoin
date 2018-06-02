@@ -18,13 +18,13 @@ banner:
 icons6:
  - title: "Сообщество"
    icon: "fa-group"
-   desc: "Получите бесплатную поддержку через эти сообщества MinCoin: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>Форум MinCoin</a></li>
+   desc: "Найти бесплатную поддержку на этих сообществах сообщества MinCoin: <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>Форум MinCoin</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>Discord канал Mincoin</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
 		  <li><a href='https://www.facebook.com/mincoin.us' target='_blank'>MinCoin Facebook</a></li>
-		  <li><a href='https://bitcointalk.org/index.php?topic=165397.0' target='_blank'>MinCoin Bitcoin Talk</a></li>
+		  <li><a href='https://bitcointalk.org/index.php?topic=165397.0' target='_blank'>Mincoin BitcoinTalk</a></li>
 		  <li><a href='http://webchat.freenode.net/?channels=#mincoin' target='_blank'>IRC FreeNode</a></li>
 		  </ul>"
  - title: "Ресурсы"
@@ -33,7 +33,7 @@ icons6:
  - title: "Программное обеспечение с открытым исходным кодом"
    icon: "fa-heart "
    desc: "это проект программного обеспечения с открытым исходным кодом, распространяемый по лицензии MIT/X11, которая дает вам возможность работать, модифицировать и копировать программное обеспечение и распространять модифицированные копии по вашему усмотрению. Программное обеспечение выпущено в открытом процессе, который позволяет производить независимую проверку двоичных файлов и соответствующего исходного кода. Исходный код для MinCoin и смежных проектов доступен на <a href='https://github.com/mincoin' target='_blank'>GitHub</a>."
- - title: "Блокчейн"
+ - title: "Технология Blockchain"
    icon: "fa-link "
    desc: "Блокчейн MinCoin способен обрабатывать более высокий объем транзакций, чем его двойник Litecoin. Благодаря более частой генерации блоков, сеть поддерживает больше транзакций без необходимости модифицировать программное обеспечение в будущем. В результате, торговцы и пользователи получают более быстрое подтверждение."
  - title: "Шифрование кошелька"

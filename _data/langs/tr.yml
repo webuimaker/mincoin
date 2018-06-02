@@ -18,13 +18,13 @@ banner:
 icons6:
  - title: "Topluluk"
    icon: "fa-group"
-   desc: "Bu MinCoin topluluklarında ücretsiz destek alın: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin Forum</a></li>
+   desc: "Bu MinCoin topluluk platformlarında ücretsiz destek bulun: <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoin Forum</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Discord Kanalı </a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
 		  <li><a href='https://www.facebook.com/mincoin.us' target='_blank'>MinCoin Facebook</a></li>
-		  <li><a href='https://bitcointalk.org/index.php?topic=165397.0' target='_blank'>MinCoin Bitcoin Talk</a></li>
+		  <li><a href='https://bitcointalk.org/index.php?topic=165397.0' target='_blank'>MinCoin BitcoinTalk</a></li>
 		  <li><a href='http://webchat.freenode.net/?channels=#mincoin' target='_blank'>IRC FreeNode</a></li>
 		  </ul>"
  - title: "Kaynaklar"
@@ -41,7 +41,7 @@ icons6:
    desc: "Cüzdan şifrelemesi, cüzdanınızı güvenli bir şekilde kullanmanıza olanak sağlar, böylece işlemlerinizi ve hesap bakiyenizi görüntülebilirsiniz; MinCoin'lerinizi harcamak için de şifrenizi girmeniz gerekmektedir. Bu sayede cüzdan çalan virüslerden ve truva atlarından korunmuş olursunuz, ödeme göndermeden önce de doğruluk testi güvenliğinizi sağlar. <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin Cüzdan Yedeği</a>."
  - title: "Madencilik Ödülü"
    icon: "fa-money "
-   desc: "Madenciler her blok için 2 yeni MinCoin'le ödüllendirilir. MinCoin ağı bu nedenle 10 milyon MinCoin üretecek şekilde planlanmıştır, bu da mincoin'in Bitcoin'den (24 milyon coin) ve Litecoin'den (84 milyon coin) çok daha nadir olmasına neden olmaktadır.<ul>
+   desc: "Madenciler her blok için 2 yeni MinCoin'le ödüllendirilir. MinCoin ağı bu nedenle 10 milyon MinCoin üretecek şekilde planlanmıştır, bu da mincoin'in Bitcoin'den (21 milyon coin) ve Litecoin'den (84 milyon coin) çok daha nadir olmasına neden olmaktadır.<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>Tek Başına Madencilik</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MNC Madencilik Rehberleri</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoin Madencilik Havuzları</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: MinCoin Hakkında Daha Fazla Bilgi Edinin
  buttonText: MinCoin Tanıtım Bülteni
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: Kripto Para Haberleri

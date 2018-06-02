@@ -18,8 +18,8 @@ banner:
 icons6:
  - title: "Gemeinschaft"
    icon: "fa-group"
-   desc: "Es erwartet Sie kostenlose Unterstützung von diesen MinCoin-Communities: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin Forum</a></li>
+   desc: "Zoek gratis ondersteuning op deze MinCoin-communityplatforms <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoin Forum</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Discord Kanal</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
@@ -33,7 +33,7 @@ icons6:
  - title: "Freier Zugang zur Software"
    icon: "fa-heart "
    desc: "MinCoin ist ein Open-Source-Software-Projekt, das unter der MIT / X11-Lizenz veröffentlicht wurde und Ihnen somit die Möglichkeit gibt, die Software auszuführen, zu modifizieren und zu kopieren und nach Ihrer Wahl modifizierte Kopien der Software zu verteilen. Die Software wird in einem transparenten Prozess veröffentlicht, der eine unabhängige Verifizierung der Binärdateien und ihres entsprechenden Quellcodes ermöglicht. Quellcode für MinCoin und verwandte Projekte sind auf <a href='https://github.com/mincoin' target='_blank'>GitHub</a> verfügbar."
- - title: "Blockchain"
+ - title: "Blockchain-technologie"
    icon: "fa-link "
    desc: "Die MinCoin Blockchain ist in der Lage, ein höheres Transaktionsvolumen zu bewältigen, als ihr Gegenstück Litecoin. Aufgrund der häufigeren Blockgenerierung unterstützt das Netzwerk mehr Transaktionen, ohne dass die Software zukünftig geändert werden muss. Dadurch erhalten Händler und Benutzer schnellere Bestätigungszeiten."
  - title: "Wallet-Verschlüsselung"

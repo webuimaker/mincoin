@@ -19,7 +19,7 @@ icons6:
  - title: "সম্প্রদায়"
    icon: "fa-group"
    desc: "নিম্নবর্ণিত MinCoin গোষ্ঠী হতে ফ্রি সাপোর্ট নিন:  <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin ফোরাম </a></li>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoin ফোরাম </a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin বিবাদ চ্যানেল</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>MinCoin রেডিট</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>MinCoin টু্ইটার</a></li>
@@ -33,7 +33,7 @@ icons6:
  - title: "উন্মুক্ত উৎসের সফটওয়্যার"
    icon: "fa-heart "
    desc: "Mলাইসেন্স MIT/X11 অনুযায়ী MinCoin  একটি উন্মুক্ত উৎস ভিত্তিক সফটওয়্যার প্রকল্প যার ব্যবহার, উন্নয়ন এবং ইচ্ছামাফিক সফট্ওয়্যারটি কপি করা এবং উন্নীত কপি বিতরণের জন্য আপনাকে প্রাধিকার প্রদান করা হয়েছে।  এই সফট্ওয়্যারটি এমনি একটি স্বচ্ছ পদ্ধতিতে ছাড়া হয়েছে যা আপনাকে এর বাইনারি সংখ্যা এবং এর উৎসের কোড স্বাধীনভাবে যাচাই করার সুযোগ দিয়েছে।  MinCoin এবং অন্যান্য সংশ্লিষ্ট প্রকল্পগুলির সোর্স কোড  <a href='https://github.com/mincoin' target='_blank'>GitHub</a> থেকে পাওয়া যাবে। ."
- - title: "ব্লকচেইন"
+ - title: "ব্লকচাইন প্রযুক্তি"
    icon: "fa-link "
    desc: "MinCoin এর ব্লকচেইন MinCoin এর অপর প্রতিযোগি Litecoin এর তুলনায় অধিক পরিমান লেন-দেন সম্পন্নে সক্ষম।  বারংবার ব্লক জেনারেশনের কারণে সফটওয়্যারটিতে পরবর্তীতে উন্নয়ন কার্য়ক্রম ছাড়াই অধিক পরিমান লেন-দেনের ক্ষেত্রে নেটওয়ার্কটি সহায়তা করে থাকে।  ফলশ্রুতিতে, ব্যবসায়ী ও ব্যবহারকারীগণ স্বল্প সময়ের মধ্যেই কনফার্মেশন পেয়ে থাকেন।   "
  - title: "ওয়ালেট সুরক্ষা "
@@ -41,7 +41,7 @@ icons6:
    desc: "ওয়ালেটে পাসওয়ার্ড প্রদান আপনার ওয়ালেটকে নিরাপদ রাখে, যাতে করে  আপনি আপনার লেন-দেনের রেকর্ড ও এ্যাকাউন্টের ব্যালেন্স দেখতে পান, কিন্তু MinCoins ব্যয়ের ক্ষেত্রে আপনার পাসওয়ার্ড ব্যবহারের প্রয়োজন হবে।   এটা আপনাকে ওয়ালেট চোর ভাইরাস ও ট্রজান হতে সুরক্ষা করবে এবং পেমেন্ট করার পূর্বে তা ধীর-স্থিরভাবে যাচাই করার সুযোগ দিবে।   <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin Wallet Backup</a>."
  - title: "মাইনিং পুরস্কার"
    icon: "fa-money "
-   desc: "বর্তমানে মাইনারগণকে ব্লক প্রতি ২টি নুতন MinCoin দিয়ে পুরস্কৃত করা হয়।  এভাবে MinCoin নেটওয়ার্কে ১০ মিলিয়ন MinCoin উত্তোলন করার পরিকল্পনা করা হয়েছে যা সত্যিকারার্থে বিটকয়েনের  (২৪ মিলিয়ন কয়েন) ও লাইটকয়েনের (৮৪ মিলিয়ন কয়েন) তুলনায় মিনকয়েনকে দুস্প্রাপ্য তুলবে।  <ul>
+   desc: "বর্তমানে মাইনারগণকে ব্লক প্রতি ২টি নুতন MinCoin দিয়ে পুরস্কৃত করা হয়।  এভাবে MinCoin নেটওয়ার্কে ১০ মিলিয়ন MinCoin উত্তোলন করার পরিকল্পনা করা হয়েছে যা সত্যিকারার্থে বিটকয়েনের  (২1 মিলিয়ন কয়েন) ও লাইটকয়েনের (৮৪ মিলিয়ন কয়েন) তুলনায় মিনকয়েনকে দুস্প্রাপ্য তুলবে।  <ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'> একক মাইনিং</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MNC মাইনিং গাইড</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoin মাইনিং পুল</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: MinCoin এর বিষয়ে আরো জানুন
  buttonText: MinCoin শ্বেতপত্র
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: ক্রিপ্টোকারেন্সি সংবাদ

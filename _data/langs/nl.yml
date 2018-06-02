@@ -18,8 +18,8 @@ banner: #TRANSLATE HERE [title, subTitle , desc and buttonText ]
 icons6:
  - title: "Community"
    icon: "fa-group"
-   desc: "Krijg gratis ondersteuning van deze MinCoin communities: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin Forum</a></li>
+   desc: "Vind gratis ondersteuning op deze MinCoin-communityplatforms: <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoin Forum</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Discord</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>MinCoin Reddit</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>MinCoin Twitter</a></li>
@@ -33,7 +33,7 @@ icons6:
  - title: "Open Source Software"
    icon: "fa-heart "
    desc: "MinCoin is een open source softwareproject uitgegeven onder de MIT/X11-licentie, waardoor iedereen de broncode naar eigen wens uit kan voeren, aan kan passen, kan kopiëren en kan verspreiden. De software wordt volgens een transparant proces gepubliceerd en de binaries en corresponderende code kunnen onafhankelijk geverifieerd worden. De broncode van MinCoin en gerelateerde projecten is beschikbaar op  <a href='https://github.com/mincoin' target='_blank'>GitHub</a>."
- - title: "Blockchain Technology"
+ - title: "Blockchain-technologie"
    icon: "fa-link "
    desc: "De MinCoin-blockchain kan per seconde meer transacties verwerken dan de Litecoin-blockchain. Dankzij de hoge frequentie waarmee blocks gegenereerd worden, kan het netwerk probleemloos toekomstige groei opvangen. Handelaren en gebruikers profiteren van snellere bevestigingstijden"
  - title: "Wallet-beveiliging"

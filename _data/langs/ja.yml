@@ -19,7 +19,7 @@ icons6:
  - title: "コミュニテ"
    icon: "fa-group"
    desc: "次のMinCoinコミュニティの中から無料サポートを探す： <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoinフォーラム</a></li>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoinフォーラム</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoinディスコードチャンネル</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
@@ -41,7 +41,7 @@ icons6:
    desc: "ウォレットの暗号化により、あなたのウォレットは安全に保たれ、トランザクションとアカウント残高を確認することができますが、そのつどMinCoinに投資する前にパスワードの入力が求められます。このことにより、送金前の基本的動作確認はもちろん、ウォレット盗難ウイルスやトロイの木馬ウイルスから保護してくれます。MinCoinウォレットバックアップ  <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin Wallet Backup</a>."
  - title: "マイニング報酬"
    icon: "fa-money "
-   desc: "現在マイナーにはブロックごとに2つの新しいMinCoinが与えられています。MinCoinネットワークはは１０００万MinCoinを生成する計画予定ですので、ビットコイン（２４００万コイン）やライトコイン（８４００万コイン）よりもMinCoinの希少性は非常に高くなります。<ul>
+   desc: "現在マイナーにはブロックごとに2つの新しいMinCoinが与えられています。MinCoinネットワークはは１０００万MinCoinを生成する計画予定ですので、ビットコイン（２1００万コイン）やライトコイン（８４００万コイン）よりもMinCoinの希少性は非常に高くなります。<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>ソロマイニング</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MNCマイニングガイド</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoinマイニングプール</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: MinCoinについてさらに詳しく
  buttonText: MINCOIN白書
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: 暗号通貨ニュース

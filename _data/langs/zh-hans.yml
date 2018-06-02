@@ -19,7 +19,7 @@ icons6:
  - title: "社区"
    icon: "fa-group"
    desc: "从以下简约币社区寻求免费支持： <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'> 简约币论坛</a></li>
+          <li><a href='https://www.mincoinforum.com' target='_blank'> 简约币论坛</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>简约币发行者频道</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>红迪网简约币</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'> 推特简约币</a></li>
@@ -41,7 +41,7 @@ icons6:
    desc: "加密钱包可加强钱包的安全性，您可以浏览交易记录和账户余额，但在支付简约币之前，需要输入密码。加密钱包可防止一些盗取资金的病毒及特洛伊木马病毒，在支付之前还可以进行完整性检查。<a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>简约币钱包备份</a>。"
  - title: "挖矿奖励"
    icon: "fa-money "
-   desc: "现在每个区块会给挖矿人2个新简约币奖励。简约币网络预计生产1千万个简约币，相较比特币（240万）和莱特币（840万）更加稀有。<ul>
+   desc: "现在每个区块会给挖矿人2个新简约币奖励。简约币网络预计生产1千万个简约币，相较比特币（210万）和莱特币（840万）更加稀有。<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>单人挖矿</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'> 移动网络码挖矿指南</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>简约币挖矿池</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: 了解更多简约币内容
  buttonText: 简约币白皮书
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: 加密货币资讯

@@ -18,8 +18,8 @@ banner:
 icons6:
  - title: "커뮤니티"
    icon: "fa-group"
-   desc: "MinCoin 커뮤니티에서 무료 지원을 받아보세요: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin 포럼</a></li>
+   desc: "이 MinCoin 커뮤니티 플랫폼에 대한 무료 지원 찾기: <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoin 포럼</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin 디스코드 채널</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>레딧 MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>트위터 MinCoin</a></li>
@@ -41,7 +41,7 @@ icons6:
    desc: "지갑 암호화를 통해서 여러분의 지갑을 안전하게 보관하여, 거래 및 계정 잔액을 볼 수 있지만, MinCoin을 출금하기 전에는 비밀번호를 입력해야 합니다. 이러한 과정을 통해서 결제를 하기 전에 정상 여부를 확인할 뿐 아니라, 지갑을 훔치는 바이러스 및 트로이 목마 바이러스로부터 보호할 수 있게 됩니다. <a href='http://mincoinforum.com/index.php/topic/330-how-to-back-up-restore-your-walletdat/' target='_blank'>MinCoin 지갑 백업</a>."
  - title: "채굴 보상"
    icon: "fa-money "
-   desc: "채굴자들은 현재 블록당 2개의 새로운 MinCoin을 제공받고 있습니다. MinCoin 네트워크는 그러므로 천만개의 MinCoin을 생산할 예정이며, 그리하여 MinCoin은 비트코인 (2400만 코인)과 라이트코인 (8400만 코인)에 비해서 매우 희소하게 됩니다.<ul>
+   desc: "채굴자들은 현재 블록당 2개의 새로운 MinCoin을 제공받고 있습니다. MinCoin 네트워크는 그러므로 천만개의 MinCoin을 생산할 예정이며, 그리하여 MinCoin은 비트코인 (2100만 코인)과 라이트코인 (8400만 코인)에 비해서 매우 희소하게 됩니다.<ul>
           <li><a href='http://mincoinforum.com/index.php/topic/320-solo-mining-mincoin-guide/' target='_blank'>단독 채굴</a></li>
 		  <li><a href='http://mincoinforum.com/index.php/forum/24-mincoin-mining-guides/' target='_blank'>MNC 채굴 가이드</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/forum/36-mincoin-mining-pools' target='_blank'>MinCoin 채굴 풀</a></li>
@@ -76,7 +76,7 @@ MinCoinDownload:
 contact:
  contactHeading: MinCoin에 대해서 더 알아보기
  buttonText: MinCoin 백서
- contentUrl: "#"
+ contentUrl: "https://www.mincoinforum.com/index.php?/topic/4178-the-mincoin-white-paper/"
  
 news:
  heading: 가상화폐 뉴스

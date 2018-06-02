@@ -18,8 +18,8 @@ banner:
 icons6:
  - title: "Community"
    icon: "fa-group"
-   desc: "Find free support from these MinCoin communities: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>MinCoin Forum</a></li>
+   desc: "Find free support on these MinCoin community platforms: <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>MinCoin Forum</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>MinCoin Discord Channel</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>

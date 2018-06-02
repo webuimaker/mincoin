@@ -18,8 +18,8 @@ banner:
 icons6:
  - title: "Komunitas"
    icon: "fa-group"
-   desc: "Temukno sokongan saka komunitas MinCoin iki: <ul>
-          <li><a href='https://www.mincoinforum.com/MinCoin' target='_blank'>Forume MinCoin</a></li>
+   desc: "Golek dhukungan gratis ing platform komunitas MinCoin iki: <ul>
+          <li><a href='https://www.mincoinforum.com' target='_blank'>Forume MinCoin</a></li>
 		  <li><a href='https://www.mincoinforum.com/index.php?/topic/4153-mincoin-on-discord/' target='_blank'>Salurane Prakara MinCoin</a></li>
 		  <li><a href='https://www.reddit.com/r/MinCoin/' target='_blank'>Reddit MinCoin</a></li>
 		  <li><a href='https://twitter.com/mincoinus' target='_blank'>Twitter MinCoin</a></li>
@@ -33,7 +33,7 @@ icons6:
  - title: "Piranti Alus Open Source"
    icon: "fa-heart "
    desc: "MinCoin iku ngunu proyek piranti alus open source sing digawe nganggo lisensi MIT/X11 sing ngijini kowe supaya bisa ngendalikake, modifikasi, lan niru piranti alus kuwi lan kowe bisa mbagi modifikasi tiruan piranti alus iki sak senengmu. Piranti alus iki disebarne kanti polah kan jelas sing ngijinake verifikasi ijenan tumrap binari-binari lan source code sing onok hubungan. Source code kanggo MinCoin lan proyek sing onok kaitane iso ditemukno nang .<a href='https://github.com/mincoin' target='_blank'>GitHub</a>."
- - title: "Blockchain"
+ - title: "Teknologi Blockchain"
    icon: "fa-link "
    desc: "Blockchain MinCoin iso nandangi transaksi sing jumlahe luwih akeh tinimbang liyane - Litecoin. Amerga blok luwih kerep diciptakne, jejaring luwih akeh nyokong transaksi tanpa butuh modifikasi piranti alus kuwi sak lawase. Saka kuwi, para merchant lan user iso oleh wayah konfirmasi luwih cepet."
  - title: "Engkripsi kanggo Wallet"
